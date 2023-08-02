@@ -1,8 +1,14 @@
 /* Styling for the footer */
+/* to fix it at the bottom of the page */
 #Footer {
     color: whitesmoke; /* Text color for the footer */
     text-align: center; /* Center-align the text */
+    margin-top: auto; /* Push footer to the bottom */
+    position: absolute; /* Absolute positioning */
+    bottom: 0; /* Stick to the bottom of the container */
+    width: 100%; /* Set full width */
 }
+
 
 /* Styling for the logo */
 #Logo {
@@ -33,11 +39,4 @@
 #search input[type="search"]::placeholder {
     color: black; /* Placeholder text color */
 }
-
-/* Styling for the footer to fix it at the bottom of the page */
-footer {
-    margin-top: auto; /* Push footer to the bottom */
-    position: absolute; /* Absolute positioning */
-    bottom: 0; /* Stick to the bottom of the container */
-    width: 100%; /* Set full width */
-}
+  
