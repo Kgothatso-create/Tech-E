@@ -1,38 +1,43 @@
+/* Styling for the footer */
 #Footer {
-    color: whitesmoke;
-    text-align: center;
-
+    color: whitesmoke; /* Text color for the footer */
+    text-align: center; /* Center-align the text */
 }
 
+/* Styling for the logo */
 #Logo {
-
-    width: 4rem;
+    width: 4rem; /* Set the width of the logo */
 }
 
+/* Styling for the search bar container */
 #search {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 3.5rem;
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    margin-right: 3.5rem; /* Right margin for spacing */
 }
 
+/* Styling for the search input field */
 #search input[type="search"] {
-    background-color: white;
-    width: 30rem;
-    color: black;
-  }
+    background-color: white; /* Background color of the input */
+    width: 30rem; /* Set the width of the input field */
+    color: black; /* Text color for typed text */
+}
 
+/* Styling for the dropdown menu */
 #Dropdown.dropdown:hover .dropdown-menu {
-    display: block;
-  }
+    display: block; /* Show dropdown menu on hover */
+}
 
+/* Styling for the search input placeholder */
 #search input[type="search"]::placeholder {
-    color: black;
-  }
+    color: black; /* Placeholder text color */
+}
 
+/* Styling for the footer to fix it at the bottom of the page */
 footer {
-    margin-top: auto;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
+    margin-top: auto; /* Push footer to the bottom */
+    position: absolute; /* Absolute positioning */
+    bottom: 0; /* Stick to the bottom of the container */
+    width: 100%; /* Set full width */
+}
