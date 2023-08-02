@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="../static/css/bootstrap.min.css" />
 
+   
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,12 +26,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    
   </head>
   <body>
+    
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"><img src="../static/images/Logo/TE.png" alt="Logo" id="Logo"></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -46,48 +47,65 @@
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
               <a class="nav-link active" href="#"
-                >Home
+                > <i class="fa-solid fa-house"></i> Home
                 <span class="visually-hidden">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item dropdown">
+            
+            
+            <li class="nav-item dropdown" id="Dropdown" aria-labelledby="navbarDropdown">
+                
               <a
-                class="nav-link dropdown-toggle"
+                
+                class="nav-link dropdown-toggle active"
                 data-bs-toggle="dropdown"
-                href="#"
                 role="button"
                 aria-haspopup="true"
-                aria-expanded="false"
-                >Dropdown</a
-              >
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Separated link</a>
+                aria-expanded="true"
+                ><i class="fa-solid fa-mobile-screen"> </i> All Brands</a>
+              <div class="dropdown-menu" style="background-color: blueviolet;">
+                <a class="dropdown-item" href="#">IPHONE</a>
+                <a class="dropdown-item" href="#">SAMSUNG</a>
+                <a class="dropdown-item" href="#">1PLUS</a>
+                <a class="dropdown-item" href="#">ZTE</a>
+                <a class="dropdown-item" href="#">NOKIA</a>
               </div>
             </li>
+            
+
+            <li class="nav-item">
+                <a class="nav-link active" href="#"> <i class="fa-solid fa-info"></i> About Us</a>
+            </li>
+
           </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-sm-2"
-              type="search"
-              placeholder="Search"
-            />
-            <button class="btn btn-secondary my-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form>
+
+          <ul  class="navbar-nav me-auto">
+            <form class="d-flex" id="search" >
+                <input
+                  class="form-control me-sm-2"
+                  type="search"
+                  placeholder="Search"                 
+                />
+                <button class="btn btn-primary my-2 my-sm-0" type="submit">
+                  Search
+                </button>
+                
+              </form>
+          </ul>
+
+          <ul class="navbar-nav me-auto">
+            <li >
+                <a class="nav-link active" href="#" id="signin"><i class="fa-solid fa-user" ></i> Sign In</a>
+            </li>
+            <li >
+                <a class="nav-link active" href="#" id="signin"><i class="fa-solid fa-heart"></i> Wish List</a>
+            </li>
+            <li >
+                <a class="nav-link active" href="#" id="signin"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+            </li>
+            
+          </ul>
+          
         </div>
       </div>
     </nav>
@@ -99,5 +117,10 @@
         <p id="Footer">css</p>
       </small>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

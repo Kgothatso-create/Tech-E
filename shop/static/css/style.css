@@ -3,3 +3,36 @@
     text-align: center;
 
 }
+
+#Logo {
+
+    width: 4rem;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3.5rem;
+}
+
+#search input[type="search"] {
+    background-color: white;
+    width: 30rem;
+    color: black;
+  }
+
+#Dropdown.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+#search input[type="search"]::placeholder {
+    color: black;
+  }
+
+footer {
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
